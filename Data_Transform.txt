@@ -1,0 +1,21 @@
+/* ALL transformation is done in PowerBi Power Query */
+
+
+--/* Filtering markets where zone is blank */
+
+= Table.SelectRows(sales_atlik_hardware_markets, each ([zone] <> ""))
+
+--/* Removed garbage values 0 and -1 in sales amount data */
+
+= Table.SelectRows(sales_atlik_hardware_transactions, each ([sales_amount] <> -1 and [sales_amount] <> 0))
+
+--/* Standarize the sales amount into only INR using conditional column */
+
+= Table.AddColumn(#"Filtered Rows1", "std_sales_amount", each if [currency] = "USD#(lf)" then [sales_amount]*83 else [sales_amount])
+
+--/* Removing duplicate transaction keeping INR\n and USD\n */
+
+= Table.SelectRows(#"Added Conditional Column", each ([currency] = "INR#(lf)" or [currency] = "USD#(lf)"))
+
+
+

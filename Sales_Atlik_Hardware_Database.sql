@@ -1,4 +1,4 @@
-/* Create Database */
+/* Create Database *//* IF it shows error then run this command separately */
 
 CREATE DATABASE  IF NOT EXISTS `Sales_Atlik_Hardware`
 
