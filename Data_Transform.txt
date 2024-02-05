@@ -5,9 +5,9 @@
 
 = Table.SelectRows(sales_atlik_hardware_markets, each ([zone] <> ""))
 
---/* Removed garbage values 0 and -1 in sales amount data */
+--/* Removed rows from transaction table where product code is greater then 279 */
 
-= Table.SelectRows(sales_atlik_hardware_transactions, each ([sales_amount] <> -1 and [sales_amount] <> 0))
+= Table.SelectRows(sales_atlik_hardware_transactions, each ([product_code] <> "Prod280" and [product_code] <> "Prod281" and [product_code] <> "Prod282" and [product_code] <> "Prod283" and [product_code] <> "Prod284" and [product_code] <> "Prod285" and [product_code] <> "Prod286" and [product_code] <> "Prod287" and [product_code] <> "Prod288" and [product_code] <> "Prod289" and [product_code] <> "Prod290" and [product_code] <> "Prod291" and [product_code] <> "Prod292" and [product_code] <> "Prod293" and [product_code] <> "Prod294" and [product_code] <> "Prod295" and [product_code] <> "Prod296" and [product_code] <> "Prod297" and [product_code] <> "Prod298" and [product_code] <> "Prod300" and [product_code] <> "Prod301" and [product_code] <> "Prod302" and [product_code] <> "Prod303" and [product_code] <> "Prod304" and [product_code] <> "Prod305" and [product_code] <> "Prod306" and [product_code] <> "Prod307" and [product_code] <> "Prod308" and [product_code] <> "Prod309" and [product_code] <> "Prod310" and [product_code] <> "Prod311" and [product_code] <> "Prod312" and [product_code] <> "Prod313" and [product_code] <> "Prod314" and [product_code] <> "Prod315" and [product_code] <> "Prod316" and [product_code] <> "Prod317" and [product_code] <> "Prod318" and [product_code] <> "Prod319" and [product_code] <> "Prod320" and [product_code] <> "Prod321" and [product_code] <> "Prod322" and [product_code] <> "Prod323" and [product_code] <> "Prod324" and [product_code] <> "Prod325" and [product_code] <> "Prod326" and [product_code] <> "Prod327" and [product_code] <> "Prod328" and [product_code] <> "Prod329" and [product_code] <> "Prod330" and [product_code] <> "Prod331" and [product_code] <> "Prod332" and [product_code] <> "Prod333" and [product_code] <> "Prod334" and [product_code] <> "Prod335" and [product_code] <> "Prod336" and [product_code] <> "Prod337" and [product_code] <> "Prod338" and [product_code] <> "Prod339"))
 
 --/* Standarize the sales amount into only INR using conditional column */
 
@@ -16,6 +16,3 @@
 --/* Removing duplicate transaction keeping INR\n and USD\n */
 
 = Table.SelectRows(#"Added Conditional Column", each ([currency] = "INR#(lf)" or [currency] = "USD#(lf)"))
-
-
-
