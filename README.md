@@ -9,19 +9,19 @@ Insert gif or link to demo
 
 ### Atliq Hardware Insights Dashboard
 
-![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Atliq_Hardware_Insights_Dashboard.png?raw=true )
+![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Sales_Insights_Data_Analysis/Demos/Atliq_Hardware_Insights_Dashboard.png?raw=true )
 
 ### Key Insights Dashboard
 
-![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Key_Insights_Dashboard.png?raw=true )
+![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Sales_Insights_Data_Analysis/Demos/Key_Insights_Dashboard.png?raw=true )
 
 ### Profit Insights Dashboard
 
-![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Profit_Insights_Dashboard.png?raw=true )
+![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Sales_Insights_Data_Analysis/Demos/Performance_Insights_Dashboard.png?raw=true )
 
 ### Performance Insights Dashboard
 
-![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Performance_Insights_Dashboard.png?raw=true )
+![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Sales_Insights_Data_Analysis/Demos/Profit_Insights_Dashboard.png?raw=true )
 
 ## 🛠 Skills
 
