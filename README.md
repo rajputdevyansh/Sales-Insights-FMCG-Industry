@@ -7,25 +7,25 @@
 Insert gif or link to demo
 ## Screenshots
 
-Atliq Hardware Insights Dashboard
+### Atliq Hardware Insights Dashboard
 
 ![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Atliq_Hardware_Insights_Dashboard.png?raw=true )
 
-Key Insights Dashboard
+### Key Insights Dashboard
 
 ![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Key_Insights_Dashboard.png?raw=true )
 
-Profit Insights Dashboard
+### Profit Insights Dashboard
 
 ![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Profit_Insights_Dashboard.png?raw=true )
 
-Performance Insights Dashboard
+### Performance Insights Dashboard
 
 ![App Screenshot](https://github.com/rajputdevyansh/Sales-Insights-FMCG-Industry/blob/main/Demos/Performance_Insights_Dashboard.png?raw=true )
 
 ## 🛠 Skills
 
-SQL, Excel, PowerBI
+### SQL, Excel, PowerBI
 ## Documentation
 
 ### Problem Statement
