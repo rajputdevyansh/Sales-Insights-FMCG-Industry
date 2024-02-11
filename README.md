@@ -26,6 +26,7 @@ Insert gif or link to demo
 ## 🛠 Skills
 
 ### SQL, Excel, PowerBI
+
 ## Documentation
 
 ### Problem Statement
@@ -71,6 +72,7 @@ Insert gif or link to demo
 - Created DAX measures to define custom calculations and metrics for the data.
 - Created various line, bar, and column charts to visualize the data and compare different categories and trends.
 - Create year and month slicers to filter the data and enable dynamic analysis.
+
 ## Feedback
 
 If you have any feedback, please reach out to us at rajputdevyansh9@gmail.com
