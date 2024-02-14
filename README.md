@@ -4,6 +4,11 @@
 ## View the project
 
 [Live Preview](https://www.devyanshrajput.live/Sales_Insights_FMCG_Dashboard.html)
+
+## Watch the project Demo
+
+[Watch Demo](https://www.youtube.com/watch?v=nskoxJAU8DQ)
+
 ## Screenshots
 
 ### Atliq Hardware Insights Dashboard
