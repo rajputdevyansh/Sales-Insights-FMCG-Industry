@@ -1,4 +1,3 @@
-
 # Sales Insights Data Analysis FMCG Industry
 
 
