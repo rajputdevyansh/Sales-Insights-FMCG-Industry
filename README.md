@@ -4,7 +4,7 @@
 
 ## View the project
 
-Insert gif or link to demo
+[Live Preview](https://www.devyanshrajput.live/Sales_Insights_FMCG_Dashboard.html)
 ## Screenshots
 
 ### Atliq Hardware Insights Dashboard
@@ -75,4 +75,4 @@ Insert gif or link to demo
 
 ## Feedback
 
-If you have any feedback, please reach out to us at rajputdevyansh9@gmail.com
+If you have any feedback, please reach out to us at rajputdevyansh9@gmail.com or https://www.devyanshrajput.live

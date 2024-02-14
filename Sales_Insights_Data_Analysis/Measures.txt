@@ -1,0 +1,25 @@
+/* ALL Measures used for visualization in PowerBi */
+
+--/* Total Revenue */
+
+Total_Revenue = sum('sales_atlik_hardware transactions'[std_sales_amount])
+
+--/* Total Quantity */
+
+Total_Quantity = sum('sales_atlik_hardware transactions'[sales_qty])
+
+--/* Total Profit Margin */
+
+Total Profit Margin = SUM('sales_atlik_hardware transactions'[profit_margin])
+
+--/* Total Revenue Contribution */
+
+Revenue Contribution % = DIVIDE([Total_Revenue],CALCULATE([Total_Revenue],ALL('sales_atlik_hardware products'),ALL('sales_atlik_hardware customers'),ALL('sales_atlik_hardware markets')))*100
+
+--/* Total Profit Margin Contribution */
+
+Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales_atlik_hardware products'),ALL('sales_atlik_hardware customers'),ALL('sales_atlik_hardware markets')))*100
+
+--/* Profit Margin */
+
+Profit Margin % = DIVIDE([Total Profit Margin],[Total_Revenue],0)*100
